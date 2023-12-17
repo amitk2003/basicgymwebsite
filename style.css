@@ -1,0 +1,133 @@
+
+        /* css reset */
+        body{
+            font-family: 'yeseabeau infant';
+            margin:0px;
+            padding:0px;
+            background-image: url('asd.avif');
+            background-repeat:no-repeat ;
+            background-size:100% ,100%;
+            color:springgreen;
+           
+            
+
+        }
+        h2{
+            font-size: 40px;
+            color: cadetblue;
+            text-align:center;
+        }
+        .left{
+            position:sticky;
+            left: 3px;
+            top:3px;
+            padding:0px;
+           
+           display:inline-block;
+           line-height: 10px;
+           font-size: 60px;
+        }
+        .center img{
+            width:150px;
+            padding:2px;
+            font-family: cursive;
+            font-style: normal;
+            font-weight: bold;
+            
+        }
+       
+        .center{
+            /* to move content at center three possibe steps:
+            display:block, width=30-50%, marigin=x axis y axis=auto */
+            /* we can put in center using float,flex */
+            display:block;
+            width:8%;
+            margin:20px auto;
+
+           
+           
+        }
+        .right{
+            position:absolute;
+            right: 2px;
+            padding:6px;
+            top:15px;
+            border:2px solid rgba(197, 1, 132, 0.838) ;
+            display:block;
+            
+        }
+        .navbar{
+            display: inline-block;
+          list-style-type: none;
+         text-align: center; 
+         padding: 0;
+         margin: 0;
+            cursor:pointer ;
+        }
+        .navbar li{
+            display:inline-block;
+             font-size: 20px;
+             padding: 4px;
+        }
+        .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding:20px 24px;
+        }.navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color:grey;
+        } 
+       .btn{
+        color:white;
+        background-color: black;
+        font-size: 17px;
+        border: 2px solid hotpink;
+        border-style: dotted;
+        cursor: pointer;
+       }
+       btn:hover{
+        color:peru;
+        background-color:coral;
+        padding:4px  15px;
+        margin:3px 3px;
+
+       }
+       .container{
+        font-size:20px;
+        background-color:black;
+        color:grey;
+        padding:60px 50px;
+        margin:2px 4px;
+        border:3px dotted orangered;
+        border-radius: 20px;
+        width:400px;
+        
+       }
+       .formgroup input{
+        
+        display: block;
+        width:200px;
+        border:2px solid black;
+        border-radius:5px;
+        margin:30px auto;
+        padding:15px;
+        color: blueviolet;
+        margin:18px;
+        padding: 5px ;
+        cursor:pointer;
+        text-align: center;
+        font-size:18px ;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        
+       }
+       .container button{
+        display:inline-block;
+        width: 59px;
+        margin:auto;
+       }
+       input{
+        border:3px solid black;
+        border-radius:3px;
+       }
+
